@@ -173,7 +173,7 @@ body{
 
 /*-- profiles-box starts from here --*/
 .profiles-box{
-	width: 80%;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 80px 0px;
 	text-align: center;
@@ -196,6 +196,7 @@ body{
 	margin-top: 50px;
 }
 .profiles-box .profile-box p{
+	width: 100%;
 	font-size: 12px;
 	margin: 40px 0px;
 	line-height: 25px;
@@ -204,7 +205,7 @@ body{
 
 /*-- footer starts from here --*/
 .footer{
-	width: 80%;
+	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 	color: grey;
@@ -233,10 +234,6 @@ body{
 	width: 80%;
 	padding: 15px 0px;
 	font-size: 20px;
-}
-.head button:hover{
-	background-color: cyan;	
-	color: black;
 }
 /*-- Header finished at here --*/
 
@@ -295,29 +292,17 @@ body{
 }
 .profiles-box .profile-box{
 	width: 100%;
-	display: block;
 }
 .profiles-box .middle{
 	margin: 10% 0%;
 }
 .profile-box img{
-	width: 28%;
-	float: left;
+	width: 50%;
 	margin-top: 0px;
 }
 .profiles-box .profile-box p{
-	float: left;
-	width: 54%;
+	width: 100%;
 	font-size: 18px;
-	margin: 5% 2px;
-	line-height: 24px;
-}
-.profile-box .blue-button{
-	float: right;
-	width: 13%;
-	height: 13%;
-	margin-top: 28px;
-	font-size: 110%;
 }
 /*-- profiles-box finished at here --*/
 
